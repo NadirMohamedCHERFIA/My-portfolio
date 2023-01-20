@@ -1,0 +1,28 @@
+.container fieldset {
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+}
+.container fieldset .technologies {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 80%;
+  padding: 1rem;
+  gap: 1rem;
+  border-radius: 0.5rem;
+}
+.container fieldset .technologies .techImage {
+  width: 4rem;
+  transition: all 1s ease;
+}
+.container fieldset .technologies .techImage:hover {
+  scale: 1.1;
+  cursor: pointer;
+}
+.container .title {
+  font-weight: 600;
+}/*# sourceMappingURL=technologies.css.map */

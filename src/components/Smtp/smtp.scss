@@ -1,0 +1,79 @@
+.container{
+    .title{
+        font-weight: 600;
+        // margin-bottom: 1rem;
+    }
+    .form{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 1rem;
+        align-items: center ;
+        margin-bottom: 2rem;
+        width: 80%;
+        padding: 1rem;
+        background: rgba(255, 255, 255, 0.2);
+        border-radius: 16px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(5px);
+        -webkit-backdrop-filter: blur(5px);
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        position: relative;
+        .form__element{
+            .infoEmail{
+                font-size: .5rem;
+                position: absolute;
+                color: red;
+            }
+        }
+        .success {
+            position: absolute;
+            text-align: center;
+            backdrop-filter: blur(10px);
+            vertical-align: center;
+            width: 100%;
+            height: 100%;
+            border-radius: .5rem;
+            padding: .5rem 1rem;
+            display: flex;
+            align-items: center;
+            display: none;
+            // display: flex;
+            &.show{
+                display: flex;
+            }
+            .success__container{
+                animation: success .5s ease;
+                background-color: rgb(18, 215, 54,0.4);
+                border-radius: .5rem;
+                padding: .5rem 1rem;
+                .icon{
+                    vertical-align: middle;
+                }
+            }
+            }
+        label{
+            color: var(--color-light);
+            float: left;
+        }
+        input,textarea{
+            background-color: transparent;
+            border: 0;
+            color: var(--color-white);
+            border-bottom: 2px solid var(--color-light);
+            &:focus{
+                border: 0;
+            }
+        }
+    }
+}
+
+@keyframes success{
+    0%{
+        transform: scale(0);
+    }
+    100%{
+        transform: scale(1);
+    }
+
+}

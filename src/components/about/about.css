@@ -1,0 +1,31 @@
+.about__container {
+  margin: 0 auto;
+}
+.about__container .nav__bar {
+  margin: 0 auto;
+  z-index: 100;
+  background-color: rgba(0, 0, 0, 0.4);
+  width: 10rem;
+  margin-left: -5rem;
+  padding: 0.5rem 2rem;
+  border-radius: 1rem;
+  display: flex;
+  justify-content: space-around;
+  gap: 1rem;
+  position: fixed;
+  left: 50%;
+  bottom: 2rem;
+  transition: var(--transition);
+  -webkit-backdrop-filter: blur(6px);
+          backdrop-filter: blur(6px);
+}
+.about__container .nav__bar:hover {
+  scale: 1.5rem;
+}
+.about__container .nav__bar .nav-item {
+  color: var(--color-light);
+}
+.about__container .nav__bar .nav-item:hover {
+  color: var(--color-white);
+  scale: 1.2;
+}/*# sourceMappingURL=about.css.map */

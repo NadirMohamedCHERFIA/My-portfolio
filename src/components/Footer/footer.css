@@ -1,0 +1,13 @@
+.footer {
+  margin: 0 auto;
+  background-color: rgba(6, 6, 6, 0.8);
+  width: 100%;
+  padding-bottom: 1rem;
+}
+.footer .subtitle {
+  display: flex;
+  gap: 1rem;
+}
+.footer .copyrights {
+  margin-top: 1rem;
+}/*# sourceMappingURL=footer.css.map */

@@ -1,0 +1,31 @@
+.about__container{
+    margin: 0 auto;
+    .nav__bar {
+            margin: 0 auto;
+            z-index: 100;
+            background-color: rgba(0,0,0,0.4);
+            width: 10rem;
+            margin-left: -5rem;
+            padding: 0.5rem 2rem;
+            border-radius: 1rem;
+            display: flex;
+            justify-content: space-around;
+            gap: 1rem;
+            // position: absolute;
+            position: fixed;
+            left: 50%;
+            bottom: 2rem;
+            transition: var(--transition);
+            backdrop-filter: blur(6px);
+            &:hover{
+                scale: 1.5rem;
+            }
+            .nav-item{
+                color: var(--color-light);
+                &:hover{
+                    color: var(--color-white);
+                scale: 1.2;
+            }
+            }
+        }
+}
