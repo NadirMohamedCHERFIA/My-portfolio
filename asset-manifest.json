@@ -1,18 +1,20 @@
 {
   "files": {
-    "main.css": "/My-portfolio/static/css/main.4a55b712.css",
-    "main.js": "/My-portfolio/static/js/main.2cf363ed.js",
+    "main.css": "/My-portfolio/static/css/main.e9fb8b84.css",
+    "main.js": "/My-portfolio/static/js/main.ff8a26a0.js",
     "static/media/PlannerImg.png": "/My-portfolio/static/media/PlannerImg.2df14727d5fb8235dfe7.png",
     "static/media/curriculum vitae_fr.pdf": "/My-portfolio/static/media/curriculum vitae_fr.17fa49caa1f1afb3de1c.pdf",
     "static/media/IoTImage.png": "/My-portfolio/static/media/IoTImage.5bb7ecda56eb6869ac54.png",
+    "static/media/MQTT.jpg": "/My-portfolio/static/media/MQTT.32e1362d12ce0872f7f5.jpg",
     "static/media/Portrait.png": "/My-portfolio/static/media/Portrait.a5178eec98abf69bf2b0.png",
     "static/media/WeatherImage.png": "/My-portfolio/static/media/WeatherImage.72436b28e3eae04c799d.png",
-    "static/media/main2.png": "/My-portfolio/static/media/main2.2776a16f28d2b81496e6.png",
+    "static/media/article.png": "/My-portfolio/static/media/article.9d459114fd30d414b8d7.png",
+    "static/media/version_15_octobre.pdf": "/My-portfolio/static/media/version_15_octobre.1d1ea30640766896529e.pdf",
     "static/media/veector.png": "/My-portfolio/static/media/veector.ec9140d715696e42a9c9.png",
     "static/media/linux.png": "/My-portfolio/static/media/linux.3a3dc1a2a418bacdd368.png",
     "static/media/Express.png": "/My-portfolio/static/media/Express.565192c1dcfb90d88158.png",
     "static/media/arduino.png": "/My-portfolio/static/media/arduino.77dd277da98ca2684db1.png",
-    "static/media/main.png": "/My-portfolio/static/media/main.f1cd1a00a12095c9001a.png",
+    "static/media/participation.jpg": "/My-portfolio/static/media/participation.e049db6f23c820b7449e.jpg",
     "static/media/sql.png": "/My-portfolio/static/media/sql.de767c658ae08d975c98.png",
     "static/media/Visual_Studio.png": "/My-portfolio/static/media/Visual_Studio.b7439a02ed85dd0ad9ee.png",
     "static/media/C.png": "/My-portfolio/static/media/C.8087af01f28fb2d65eb2.png",
@@ -20,13 +22,14 @@
     "static/media/stm32.png": "/My-portfolio/static/media/stm32.83f0907da89b3480496b.png",
     "static/media/vhdl.png": "/My-portfolio/static/media/vhdl.f82a483ce5115757cfec.png",
     "static/media/mqtt.png": "/My-portfolio/static/media/mqtt.87f5d92b231e689379c0.png",
-    "static/media/mosquitto.png": "/My-portfolio/static/media/mosquitto.d33a055335cde2aa0861.png",
     "static/media/TCPIP.png": "/My-portfolio/static/media/TCPIP.45e9eb739d29e7f1133f.png",
     "static/media/Packet Tracer.png": "/My-portfolio/static/media/Packet Tracer.cd02cb36c298288df603.png",
     "static/media/platformio-logo.png": "/My-portfolio/static/media/platformio-logo.fc4767c0df4ced244c56.png",
     "static/media/node.png": "/My-portfolio/static/media/node.54be639bdca2122e416d.png",
+    "static/media/English.png": "/My-portfolio/static/media/English.133207787a89780e05a9.png",
     "static/media/sass.png": "/My-portfolio/static/media/sass.a582d1f06a39d1aed2c3.png",
     "static/media/React.png": "/My-portfolio/static/media/React.17c58f6a44af6043b5ce.png",
+    "static/media/Frensh.png": "/My-portfolio/static/media/Frensh.73f91b4e96d67f8a03f0.png",
     "static/media/wireshark.png": "/My-portfolio/static/media/wireshark.0578cbb4236c484cee66.png",
     "static/media/protocoles.png": "/My-portfolio/static/media/protocoles.e98e896146b597b4e31f.png",
     "static/media/Docker.png": "/My-portfolio/static/media/Docker.7c71e2c109fcbc69724a.png",
@@ -35,11 +38,11 @@
     "static/media/esp32.png": "/My-portfolio/static/media/esp32.b1c3c304a04adedf9e54.png",
     "static/media/machinel.png": "/My-portfolio/static/media/machinel.a6388650c85f64d8cc5f.png",
     "index.html": "/My-portfolio/index.html",
-    "main.4a55b712.css.map": "/My-portfolio/static/css/main.4a55b712.css.map",
-    "main.2cf363ed.js.map": "/My-portfolio/static/js/main.2cf363ed.js.map"
+    "main.e9fb8b84.css.map": "/My-portfolio/static/css/main.e9fb8b84.css.map",
+    "main.ff8a26a0.js.map": "/My-portfolio/static/js/main.ff8a26a0.js.map"
   },
   "entrypoints": [
-    "static/css/main.4a55b712.css",
-    "static/js/main.2cf363ed.js"
+    "static/css/main.e9fb8b84.css",
+    "static/js/main.ff8a26a0.js"
   ]
 }
