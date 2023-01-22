@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/My-portfolio/static/css/main.8d6271ac.css",
-    "main.js": "/My-portfolio/static/js/main.5cd58c23.js",
+    "main.js": "/My-portfolio/static/js/main.bd1e8fdc.js",
     "static/media/PlannerImg.png": "/My-portfolio/static/media/PlannerImg.2df14727d5fb8235dfe7.png",
     "static/media/curriculum vitae_fr.pdf": "/My-portfolio/static/media/curriculum vitae_fr.17fa49caa1f1afb3de1c.pdf",
     "static/media/IoTImage.png": "/My-portfolio/static/media/IoTImage.5bb7ecda56eb6869ac54.png",
     "static/media/MQTT.jpg": "/My-portfolio/static/media/MQTT.32e1362d12ce0872f7f5.jpg",
     "static/media/Portrait.png": "/My-portfolio/static/media/Portrait.a5178eec98abf69bf2b0.png",
-    "static/media/WeatherImage.png": "/My-portfolio/static/media/WeatherImage.72436b28e3eae04c799d.png",
+    "static/media/WeatherImage.png": "/My-portfolio/static/media/WeatherImage.f464416878c2848d4826.png",
     "static/media/article.png": "/My-portfolio/static/media/article.9d459114fd30d414b8d7.png",
     "static/media/version_15_octobre.pdf": "/My-portfolio/static/media/version_15_octobre.1d1ea30640766896529e.pdf",
     "static/media/veector.png": "/My-portfolio/static/media/veector.ec9140d715696e42a9c9.png",
@@ -39,10 +39,10 @@
     "static/media/machinel.png": "/My-portfolio/static/media/machinel.a6388650c85f64d8cc5f.png",
     "index.html": "/My-portfolio/index.html",
     "main.8d6271ac.css.map": "/My-portfolio/static/css/main.8d6271ac.css.map",
-    "main.5cd58c23.js.map": "/My-portfolio/static/js/main.5cd58c23.js.map"
+    "main.bd1e8fdc.js.map": "/My-portfolio/static/js/main.bd1e8fdc.js.map"
   },
   "entrypoints": [
     "static/css/main.8d6271ac.css",
-    "static/js/main.5cd58c23.js"
+    "static/js/main.bd1e8fdc.js"
   ]
 }
