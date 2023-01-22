@@ -1,17 +1,16 @@
-import React,{useState} from 'react'
+import React,{useEffect, useState} from 'react'
 import './experience.css'
 import {GiGraduateCap} from 'react-icons/gi'
 import {GiBriefcase} from 'react-icons/gi'
 const Experience = () => {
     const [qual,setQual] = useState('experience')
-    const [animation,setAnimation]=useState(true)
     const handleClickStudies=()=>{
         setQual('studies')
     }
     const handleClickExperience=()=>{
         setQual('experience')
     }
-  return (
+return (
     <div className='container'>
             <div className="titles">
                 <div className={qual==='studies' ? 'title notactive' : 'title'} onClick={handleClickExperience}>
@@ -25,80 +24,91 @@ const Experience = () => {
         <ul className='navmenu'>
             <div className='child1 showleft'>
                 <div className="name">
-                    Algerie Telecom
+                    Algerie Telecom <br></br>-Internship-
                 </div>
-                <div className="location">
+                <div className="location text-light">
                     Algeria
                 </div>
-                <div className="location">
+                <div className="date">
                     2022
                 </div>
             </div>
             <div className="child2 showright">
                 <div className="name">
-                    Algerie Telecom
+                    Groupe GIPLAIT <br></br>-Internship-
                 </div>
-                <div className="location">
+                <div className="location text-light">
                     Algeria
                 </div>
-                <div className="location">
+                <div className="date">
                     2022
                 </div>
             </div>
             <div className="child3 showleft">
                 <div className="name">
-                    Algerie Telecom
+                    GAC URAc UAB <br></br>-Internship-
                 </div>
-                <div className="location">
+                <div className="location text-light" >
                     Algeria
                 </div>
-                <div className="location">
-                    2022
+                <div className="date">
+                    2021
                 </div>
             </div>
             <div className="child4 showright">
                 <div className="name">
-                    Algerie Telecom
+                    BATIMETAL Charpente<br></br> -Internship-
                 </div>
-                <div className="location">
+                <div className="location text-light" >
                     Algeria
                 </div>
-                <div className="location">
-                    2022
+                <div className="ldate">
+                    2021
                 </div> 
             </div>
         </ul>:(qual==='studies')?
             <ul className='navmenu'>
-            <div className='child1'>
+            <div className='child1s showlefts'>
                 <div className="name">
-                    Engineer degree in Embedded Systems
+                    Master 1 Industry 4.0
                 </div>
-                <div className="location">
-                    HIgher National School of Technologie
+                <div className="location text-light" >
+                    Universty of Lille
                 </div>
-                <div className="location">
-                    2022
+                <div className="date">
+                    2022-2023
                 </div>
             </div>
-            <div className="child2">
+            <div className="child2s showrights">
                 <div className="name">
-                    Master degree in Embedded System 
+                    Engineer degree in Embedded Systems 
                 </div>
-                <div className="location">
+                <div className="location text-light">
                     Higher National School of technology
                 </div>
-                <div className="location">
+                <div className="date">
                     2022
                 </div>
             </div>
-            <div className="child3">
+            <div className="child3s showlefts">
                 <div className="name">
-                    BAC Technical Mathematics
+                    Master degree in Embedded System
                 </div>
-                <div className="location">
-                    Lycée IbnAbdMoutalib
+                <div className="location text-light">
+                    Higher National School of technology
                 </div>
-                <div className="location">
+                <div className="date">
+                    2022
+                </div>
+            </div>
+            <div className="child4s showrights">
+                <div className="name">
+                    Technical Mathematics baccalaureate
+                </div>
+                <div className="location text-light">
+                    IbnAbdMoutalib High School
+                </div>
+                <div className="date">
                     2017
                 </div>
             </div>

@@ -7,16 +7,21 @@ const Card = (props) => {
             {props.props.name}
         </div>
         <div className="img">
-            <img src={props.props.path} alt="" />
+            <img src={props.props.path} alt=""/>
         </div>
         <div className="description">
-            Details:<br></br>
             {props.props.description}
         {props.props.ghpage ? 
         <a href={props.props.link} target='_blank'>
           <div className="btn btn-primary">Demo</div>
         </a>
         :null
+      }
+      {
+        props.props.download ?
+        <a href={props.props.downloadPath}>
+          <div className="btn btn-primary">Download article</div>
+        </a>:null
       }
         </div>
     </div>

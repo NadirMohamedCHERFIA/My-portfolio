@@ -5,16 +5,16 @@
   align-items: center;
 }
 .container .title {
-  margin-top: 1rem;
+  margin-top: 2rem;
   font-weight: 600;
 }
 .container .carousel {
   margin-top: 0.3rem;
   width: 80%;
-  height: 20%;
   margin-bottom: 1rem;
+  overflow: hidden;
 }
-.container .SliderCard {
+.container .carousel .SliderCard {
   height: 100%;
   margin: 0 auto;
   overflow: hidden;
@@ -22,26 +22,37 @@
   backdrop-filter: blur(16px) saturate(180%);
   -webkit-backdrop-filter: blur(16px) saturate(180%);
   background-color: rgba(17, 25, 40, 0.75);
-  border-radius: 12px;
   border: 1px solid rgba(255, 255, 255, 0.125);
+  position: relative;
 }
-.container .SliderCard:hover .description {
+.container .carousel .SliderCard .btn {
+  scale: 0.5 !important;
+}
+.container .carousel .SliderCard:hover .description {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  color: var(--color-white);
+  height: 100%;
+  overflow: auto;
+  overflow-y: scroll !important;
+  -webkit-overflow-scrolling: touch;
+  -webkit-overflow-scrolling: auto;
 }
-.container .SliderCard .name {
-  margin-top: 1rem;
-}
-.container .SliderCard .description {
-  background-color: rgba(14, 9, 9, 0.5);
+.container .carousel .SliderCard .description {
+  position: relative;
+  font-size: 0.7rem;
+  background-color: rgba(17, 25, 40, 0.75);
   position: absolute;
   display: none;
   bottom: 0;
   left: 0;
   right: 0;
-  margin-bottom: 2rem;
 }
-.container .SliderCard .img {
+.container .carousel .SliderCard .name {
+  margin-top: 1rem;
+}
+.container .carousel .SliderCard .img {
   width: 100%;
   height: 100%;
   color: red;

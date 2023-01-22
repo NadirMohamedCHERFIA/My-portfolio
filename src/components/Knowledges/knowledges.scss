@@ -1,0 +1,48 @@
+.container{
+    .knowledges{
+        margin-top: 2rem;
+        width: 100%;
+        margin-bottom: 2rem;
+        .knowledges__container{
+            font-weight: 600;
+            margin: 0 auto;
+            width: 80%;
+            background-color: rgb(132, 125, 125,0.1);
+            border-radius: .2rem;
+            height: 2rem;
+            overflow: hidden;
+            .technologies{
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-around;
+                align-items: center;
+                border-top: 2px solid white;
+                .techImage{
+                    width: 5rem;
+                }
+            }
+            .head{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                padding-right: 1rem;
+                padding-left: 1rem;
+            
+            }
+            &.open{
+                overflow: visible;
+                height: max-content;
+                padding-bottom: 1rem;
+            }
+            &:hover{
+                cursor: pointer;
+            }
+            .logo{
+                margin-top: .2rem;
+                scale: 1.5;
+                height: max-content;
+                color: var(--color-white);
+            }
+        }
+    }
+}

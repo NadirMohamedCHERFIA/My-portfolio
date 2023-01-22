@@ -1,0 +1,49 @@
+.container .knowledges {
+  margin-top: 2rem;
+  width: 100%;
+  margin-bottom: 2rem;
+}
+.container .knowledges .knowledges__container {
+  font-weight: 600;
+  margin: 0 auto;
+  width: 80%;
+  background-color: rgba(132, 125, 125, 0.1);
+  border-radius: 0.2rem;
+  height: 2rem;
+  overflow: hidden;
+}
+.container .knowledges .knowledges__container .technologies {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  border-top: 2px solid white;
+}
+.container .knowledges .knowledges__container .technologies .techImage {
+  width: 5rem;
+}
+.container .knowledges .knowledges__container .head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+.container .knowledges .knowledges__container.open {
+  overflow: visible;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  padding-bottom: 1rem;
+}
+.container .knowledges .knowledges__container:hover {
+  cursor: pointer;
+}
+.container .knowledges .knowledges__container .logo {
+  margin-top: 0.2rem;
+  scale: 1.5;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  color: var(--color-white);
+}/*# sourceMappingURL=knowledges.css.map */

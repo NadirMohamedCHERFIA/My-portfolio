@@ -69,7 +69,7 @@ const Smtp = () => {
             </div>
             <div className="form__element">
                 <label htmlFor="email">Email </label><br></br>
-                <input type="email" rows='10' value={contact.email} id="email" required onChange={handleEmailChange}/>
+                <input type="email" rows='10' value={contact.email} id="emailf" required onChange={handleEmailChange}/>
                 <div className="infoEmail">
                     {contact.email==='' || valideEmail ? '' :'Email non valide'}
                 </div>

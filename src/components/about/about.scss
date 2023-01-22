@@ -17,6 +17,10 @@
             bottom: 2rem;
             transition: var(--transition);
             backdrop-filter: blur(6px);
+            .logoNav{
+                display: flex;
+                
+            }
             &:hover{
                 scale: 1.5rem;
             }

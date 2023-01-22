@@ -1,10 +1,9 @@
-import React from 'react'
-import './technologies.css'
+import React, { useState } from 'react'
+import './knowledges.css'
 import ReactImage from './../../assets/React.png'
 import NodeImage from './../../assets/node.png'
 import ExpressImage from './../../assets/Express.png'
 import MysqlImage from './../../assets/sql.png'
-import MosquittoImage from './../../assets/mosquitto.png'
 import GithubImage from './../../assets/GithubImage.png'
 import VBAImage from './../../assets/vba.png'
 import DockerImage from './../../assets/Docker.png'
@@ -25,16 +24,31 @@ import SassImage from './../../assets/sass.png'
 import HtmlImage from './../../assets/logo-2582748_960_720.png'
 import Stm32Image from './../../assets/stm32.png'
 import Esp32Image from './../../assets/esp32.png'
-const Technologies = () => {
+
+import {MdAdd} from 'react-icons/md'
+import {AiOutlineMinus} from 'react-icons/ai'
+const Knowledges = () => {
+    const [manageplus,setManagePLus] = useState({Technologies:false,Softwares:false,Knowledges:false})
+    const handleClick=(id)=>{
+        const knw=document.querySelectorAll('.knowledges__container')
+        knw[id-1].classList.toggle('open')
+        id===1 ?setManagePLus({...manageplus,Technologies:!(manageplus.Technologies)})
+        :id===2 ?setManagePLus({...manageplus,Softwares:!(manageplus.Softwares)})
+        :id===3 ? setManagePLus({...manageplus,Knowledges:!(manageplus.Knowledges)}) : console.log('')   
+    }
   return (
     <div className='container'>
-        <div className="title">
-            <fieldset>
-                <legend>
-                    TechnoloLgies
-                </legend>
-                <div className="technologies">
-            <div className="techImage">
+        Centers of intrest
+        <div className="knowledges">
+            <div className="knowledges__container" onClick={()=>handleClick(1)}>
+                <div className="head">
+                        Technologies
+                    <div className="logo">
+                        {!manageplus.Technologies ? <MdAdd/> : <AiOutlineMinus/>}
+                    </div>
+            </div>
+            <div className="technologies">
+                <div className="techImage">
                 <img src={HtmlImage} alt="" />
             </div>
             <div className="techImage">
@@ -62,20 +76,17 @@ const Technologies = () => {
                 <img src={MqttImage} alt="" />
             </div>
             <div className="techImage">
-                <img src={DockerImage} alt="" />
-            </div>
-            <div className="techImage">
                 <img src={GithubImage} alt="" />
             </div>
-        </div>
-            </fieldset>
-        </div>
-        <fieldset>
-            <legend>
-                <div className="title">
-                    Softwares
-                </div>
-            </legend>
+            </div>
+            </div>
+            <div className="knowledges__container" onClick={()=>handleClick(2)}>
+                <div className="head">
+                        Softwares
+                    <div className="logo">
+                        {!manageplus.Softwares ? <MdAdd/> : <AiOutlineMinus/>}
+                    </div>
+            </div>
             <div className="technologies">
             <div className="techImage">
                 <img src={VisualStudioImage} alt="" />
@@ -95,15 +106,19 @@ const Technologies = () => {
             <div className="techImage">
                 <img src={WireSharkImage} alt="" />
             </div>
-        </div>
-        </fieldset>
-        <fieldset>
-            <legend>
-                <div className="title">
-                    Knowledges in
                 </div>
-            </legend>
+            </div>
+            <div className="knowledges__container" onClick={()=>handleClick(3)}>
+                <div className="head">
+                        Knowledges
+                    <div className="logo">
+                        {!manageplus.Knowledges ? <MdAdd/> : <AiOutlineMinus/>}
+                    </div>
+            </div>
             <div className="technologies">
+                <div className="techImage">
+                <img src={DockerImage} alt="" />
+            </div>
             <div className="techImage">
                 <img src={MachineLearningImage} alt="" />
             </div>
@@ -125,11 +140,11 @@ const Technologies = () => {
             <div className="techImage">
                 <img src={Esp32Image} alt="" />
             </div>
+            </div>
+            </div>
         </div>
-        </fieldset>
-        
     </div>
   )
 }
 
-export default Technologies
+export default Knowledges
