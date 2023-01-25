@@ -50,6 +50,10 @@ h1 {
   font-size: 2.5rem;
 }
 
+.blue {
+  color: var(--color-primary);
+}
+
 section {
   margin-top: 8rem;
 }
