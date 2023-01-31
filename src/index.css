@@ -37,6 +37,10 @@ body {
   line-height: 1.7;
 }
 
+.blue {
+  color: var(--color-primary);
+}
+
 .container {
   margin: 0 auto;
   width: var(--container-width-lg);

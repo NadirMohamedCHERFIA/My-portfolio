@@ -1,7 +1,9 @@
 import React,{useState} from 'react'
 import emailjs from '@emailjs/browser';
+import { ContextLanguage } from '../Context/ContextLanguage';
 import './smtp.css'
 import {IoCheckmarkDoneCircleOutline} from 'react-icons/io5'
+import { useContext } from 'react';
 const serviceId ='service_jvwlg4u'
 const templateId ='template_tdqqxek'
 const PUBLIC_KEY='fPYICqSB2OHJRYqPU'
@@ -9,6 +11,7 @@ const PUBLIC_KEY='fPYICqSB2OHJRYqPU'
 
 const Smtp = () => {
     const [contact,setContact] = useState({name:'',subject:'',message:'',email:''})
+    const {language} = useContext(ContextLanguage)
     const [valideEmail,setValideEmail] = useState(false)
     function ValidateEmail(mail) 
     {
@@ -61,10 +64,22 @@ const Smtp = () => {
     <div className='container' id="contactMe">
         <form action="" className='form'>
         <div className="title">
-            Contact me
+            {language==='en'
+            ?"Contact me"
+            :language==='fr'
+            ?"Contacte moi"
+            :null
+            }
         </div>
             <div className="form__element">
-                <label htmlFor="name">Name </label><br></br>
+                <label htmlFor="name">
+                    {language==='en'
+                    ?"Name"
+                    :language==='fr'
+                    ?"Nom"
+                    :null
+                    }    
+                </label><br></br>
                 <input type="text" value={contact.name} id="name" onChange={handleNameChange}/>
             </div>
             <div className="form__element">
@@ -75,17 +90,37 @@ const Smtp = () => {
                 </div>
             </div>
             <div className="form__element">
-                <label htmlFor="subject">Subject </label><br></br>
+                <label htmlFor="subject">
+                    {language==='en'
+                    ?"Subject"
+                    :language==='fr'
+                    ?"Objet"
+                    :null
+                    }     
+                </label><br></br>
                 <input type="text"  id="subject"value={contact.subject} onChange={handleSubjectChange}/>
             </div>
             <div className="form__element">
                 <label htmlFor="message">Message </label><br></br>
                 <textarea  id="message" value={contact.message} required onChange={handleMessageChange}/>
             </div>
-            <button className='btn btn-primary' onClick={handleClick}>Send</button>
+            <button className='btn btn-primary' onClick={handleClick}>
+                {language==='en'
+                ?"Send"
+                :language==='fr'
+                ?"Envoyer"
+                :null
+                }
+            </button>
             <div className="success">
                 <div className="success__container">
-                    Message Sent successfully, we will respond the soonest possible, have a good day! <span className="icon">
+                    {language==='en'
+                    ?"Message Sent successfully, we will respond the soonest possible, have a good day!"
+                    :language==='fr'
+                    ?"Message envoyé avec succès, nous répondrons le plus tôt possible,bonne journée"
+                    :null
+                    }
+                    <span className="icon">
                         <IoCheckmarkDoneCircleOutline/>
                         </span>
                 </div>

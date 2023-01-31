@@ -13,7 +13,7 @@ const CTA = () => {
   const {language} = useContext(ContextLanguage)
   return (
     <div className="cta">
-        <a href={CV} download className='btn'>
+        <a href={CV} download className='btn' target='_blank'>
           {language==='en'
           ?download.en
           :language==='fr'

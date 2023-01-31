@@ -45,6 +45,10 @@
         }
         .copyrights{
             margin-top: 1rem;
+            .developped{
+                display: flex;
+                justify-content: center;
+            }
         }
     }
 }

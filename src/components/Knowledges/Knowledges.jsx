@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { ContextLanguage } from '../Context/ContextLanguage'
 import './knowledges.css'
 import ReactImage from './../../assets/React.png'
 import NodeImage from './../../assets/node.png'
@@ -27,8 +28,10 @@ import Esp32Image from './../../assets/esp32.png'
 
 import {MdAdd} from 'react-icons/md'
 import {AiOutlineMinus} from 'react-icons/ai'
+import { useContext } from 'react'
 const Knowledges = () => {
     const [manageplus,setManagePLus] = useState({Technologies:false,Softwares:false,Knowledges:false})
+    const {language} = useContext(ContextLanguage)
     const handleClick=(id)=>{
         const knw=document.querySelectorAll('.knowledges__container')
         knw[id-1].classList.toggle('open')
@@ -38,11 +41,21 @@ const Knowledges = () => {
     }
   return (
     <div className='container'>
-        Centers of intrest
+        {language==='en'
+        ?"Centers of intrest"
+        :language==='fr'
+        ?"Centres d’intérêt"
+        :null
+        }
         <div className="knowledges">
             <div className="knowledges__container" onClick={()=>handleClick(1)}>
                 <div className="head">
-                        Technologies
+                        {language==='en'
+                        ?"Technologies"
+                        :language==='fr'
+                        ?"Technologies"
+                        :null
+                        }
                     <div className="logo">
                         {!manageplus.Technologies ? <MdAdd/> : <AiOutlineMinus/>}
                     </div>
@@ -82,7 +95,12 @@ const Knowledges = () => {
             </div>
             <div className="knowledges__container" onClick={()=>handleClick(2)}>
                 <div className="head">
-                        Softwares
+                    {language==='en'
+                    ?"Softwares"
+                    :language==='fr'
+                    ?"Logiciels"
+                    :null
+                    }
                     <div className="logo">
                         {!manageplus.Softwares ? <MdAdd/> : <AiOutlineMinus/>}
                     </div>
@@ -110,7 +128,12 @@ const Knowledges = () => {
             </div>
             <div className="knowledges__container" onClick={()=>handleClick(3)}>
                 <div className="head">
-                        Knowledges
+                    {language==='en'
+                    ?"knowledges"
+                    :language==='fr'
+                    ?"Connaissances"
+                    :null
+                    }
                     <div className="logo">
                         {!manageplus.Knowledges ? <MdAdd/> : <AiOutlineMinus/>}
                     </div>

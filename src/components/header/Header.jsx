@@ -13,18 +13,18 @@ const greeting=
 	}
 const strings = {
 	en:['Embedded Systems Engineer','Industry 4.0 student','FrontEnd developer'],
-	fr:["Ingénieur d'état en Systèmes Embarquès","Ètudiant M1 en Génie Insutriel","Developper FrontEnd"]
+	fr:["Ingénieur en Systèmes Embarquès","Etudiant en M1 Génie Insutriel","Developper FrontEnd"]
 }
 const stage={
 	en:"Looking for an Internship",
-	fr:"Â la recherche d'un stage"
+	fr:"À la recherche d'un stage"
 }
 const scroll ={
 	en:"Scroll Down",
 	fr:'Faire défiler'
 }
 const Header = () => {
-	const {language,setLanguage} = useContext(ContextLanguage)
+	const {language} = useContext(ContextLanguage)
 	const stringToShow = (language==='en' ? strings.en :language==='fr' ? strings.fr : null)
 	console.log(stringToShow)
 	return (

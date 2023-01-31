@@ -35,8 +35,10 @@
         display: grid;
         grid-template-columns: repeat(2,1fr);
         position: relative;
-        .child1,.child3{
+        .child1,.child3,.child5{
             position: relative;
+            padding-left: 1rem;
+            padding-right: 1rem;
             &:hover{
                 cursor: pointer;
             }
@@ -63,8 +65,10 @@
                 border: 5px solid var(--color-primary);
             }
         }
-        .child1s,.child3s{
+        .child1s,.child3s,.child5s{
             position: relative;
+            padding-left: 1rem;
+            padding-right: 1rem;
             &:hover{
                 cursor: pointer;
             }
@@ -92,8 +96,10 @@
         }
         .child2,.child4{
             position: relative;
+            padding-left: 1rem;
+            padding-right: 1rem;
             &:hover {
-                    cursor: pointer;
+                cursor: pointer;
                 }
             &::after {
                 content: '';
@@ -118,6 +124,8 @@
             }}
         .child2s,.child4s{
             position: relative;
+            padding-left: 1rem;
+            padding-right: 1rem;
             &:hover {
                     cursor: pointer;
                 }
@@ -161,6 +169,10 @@
         }
         .child4s{
             grid-row-start: 5;
+        }
+        .child5s{
+            grid-column-start: 2;
+            grid-row-start: 6;
         }
     }}
 @keyframes showleft{
