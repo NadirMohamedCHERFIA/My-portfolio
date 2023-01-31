@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.css": "/My-portfolio/static/css/main.3e44788b.css",
-    "main.js": "/My-portfolio/static/js/main.32514344.js",
+    "main.css": "/My-portfolio/static/css/main.54384be5.css",
+    "main.js": "/My-portfolio/static/js/main.2c0e3c05.js",
     "static/media/MQTT.jpg": "/My-portfolio/static/media/MQTT.32e1362d12ce0872f7f5.jpg",
     "static/media/Portrait.png": "/My-portfolio/static/media/Portrait.a5178eec98abf69bf2b0.png",
     "static/media/IoTImage.png": "/My-portfolio/static/media/IoTImage.04c12a10420831a825e3.png",
     "static/media/PlannerImg.png": "/My-portfolio/static/media/PlannerImg.01f02d42ab352944b182.png",
-    "static/media/MotusImg.png": "/My-portfolio/static/media/MotusImg.4dde1ec2829655c854ec.png",
+    "static/media/MotusImg.png": "/My-portfolio/static/media/MotusImg.d0817ac2764aba94b371.png",
     "static/media/WeatherImage.png": "/My-portfolio/static/media/WeatherImage.c0ec3c3c8761be40a3d0.png",
     "static/media/version_15_octobre.pdf": "/My-portfolio/static/media/version_15_octobre.1d1ea30640766896529e.pdf",
     "static/media/veector.png": "/My-portfolio/static/media/veector.ec9140d715696e42a9c9.png",
@@ -39,11 +39,11 @@
     "static/media/esp32.png": "/My-portfolio/static/media/esp32.b1c3c304a04adedf9e54.png",
     "static/media/machinel.png": "/My-portfolio/static/media/machinel.a6388650c85f64d8cc5f.png",
     "index.html": "/My-portfolio/index.html",
-    "main.3e44788b.css.map": "/My-portfolio/static/css/main.3e44788b.css.map",
-    "main.32514344.js.map": "/My-portfolio/static/js/main.32514344.js.map"
+    "main.54384be5.css.map": "/My-portfolio/static/css/main.54384be5.css.map",
+    "main.2c0e3c05.js.map": "/My-portfolio/static/js/main.2c0e3c05.js.map"
   },
   "entrypoints": [
-    "static/css/main.3e44788b.css",
-    "static/js/main.32514344.js"
+    "static/css/main.54384be5.css",
+    "static/js/main.2c0e3c05.js"
   ]
 }
