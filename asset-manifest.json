@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/My-portfolio/static/css/main.6d7f12df.css",
-    "main.js": "/My-portfolio/static/js/main.ba0084e7.js",
+    "main.css": "/My-portfolio/static/css/main.3e44788b.css",
+    "main.js": "/My-portfolio/static/js/main.32514344.js",
     "static/media/MQTT.jpg": "/My-portfolio/static/media/MQTT.32e1362d12ce0872f7f5.jpg",
     "static/media/Portrait.png": "/My-portfolio/static/media/Portrait.a5178eec98abf69bf2b0.png",
     "static/media/IoTImage.png": "/My-portfolio/static/media/IoTImage.04c12a10420831a825e3.png",
@@ -13,7 +13,7 @@
     "static/media/article.png": "/My-portfolio/static/media/article.d6760c279e13550baf50.png",
     "static/media/linux.png": "/My-portfolio/static/media/linux.3a3dc1a2a418bacdd368.png",
     "static/media/Express.png": "/My-portfolio/static/media/Express.565192c1dcfb90d88158.png",
-    "static/media/curriculum vitae_fr.pdf": "/My-portfolio/static/media/curriculum vitae_fr.dabb1ae48eb55c82460e.pdf",
+    "static/media/curriculum vitae_fr.pdf": "/My-portfolio/static/media/curriculum vitae_fr.ed7d5874b9641617df30.pdf",
     "static/media/arduino.png": "/My-portfolio/static/media/arduino.77dd277da98ca2684db1.png",
     "static/media/participation.jpg": "/My-portfolio/static/media/participation.e049db6f23c820b7449e.jpg",
     "static/media/sql.png": "/My-portfolio/static/media/sql.de767c658ae08d975c98.png",
@@ -39,11 +39,11 @@
     "static/media/esp32.png": "/My-portfolio/static/media/esp32.b1c3c304a04adedf9e54.png",
     "static/media/machinel.png": "/My-portfolio/static/media/machinel.a6388650c85f64d8cc5f.png",
     "index.html": "/My-portfolio/index.html",
-    "main.6d7f12df.css.map": "/My-portfolio/static/css/main.6d7f12df.css.map",
-    "main.ba0084e7.js.map": "/My-portfolio/static/js/main.ba0084e7.js.map"
+    "main.3e44788b.css.map": "/My-portfolio/static/css/main.3e44788b.css.map",
+    "main.32514344.js.map": "/My-portfolio/static/js/main.32514344.js.map"
   },
   "entrypoints": [
-    "static/css/main.6d7f12df.css",
-    "static/js/main.ba0084e7.js"
+    "static/css/main.3e44788b.css",
+    "static/js/main.32514344.js"
   ]
 }
