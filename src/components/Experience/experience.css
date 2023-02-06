@@ -39,6 +39,12 @@
   grid-template-columns: repeat(2, 1fr);
   position: relative;
 }
+.container .navmenu .modules {
+  text-align: left;
+}
+.container .navmenu .modules .showAll:hover {
+  color: var(--color-white);
+}
 .container .navmenu .child1, .container .navmenu .child3, .container .navmenu .child5 {
   position: relative;
   padding-left: 1rem;
@@ -48,7 +54,6 @@
   cursor: pointer;
 }
 .container .navmenu .child1::after, .container .navmenu .child3::after, .container .navmenu .child5::after {
-  content: "";
   content: "";
   position: absolute;
   height: 100%;

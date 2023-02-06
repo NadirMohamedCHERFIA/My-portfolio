@@ -35,6 +35,14 @@
         display: grid;
         grid-template-columns: repeat(2,1fr);
         position: relative;
+        .modules{
+            text-align: left;
+            .showAll{
+                &:hover{
+                    color: var(--color-white);
+                }
+            }
+        }
         .child1,.child3,.child5{
             position: relative;
             padding-left: 1rem;
@@ -43,7 +51,7 @@
                 cursor: pointer;
             }
             &::after{
-                content: '';
+                // content: '';
                 content: '';
                     position: absolute;
                     height: 100%;

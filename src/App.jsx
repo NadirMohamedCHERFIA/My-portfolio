@@ -28,8 +28,8 @@ const App = () => {
         <Header/>
         <Description/>
         {menu ?<About/> : null}
-        <Project/>
         <Knowledges/>
+        <Project/>
         <Experience/>
         <Smtp/> 
         <Footer/>
