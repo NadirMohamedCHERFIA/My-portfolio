@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/My-portfolio/static/css/main.54384be5.css",
-    "main.js": "/My-portfolio/static/js/main.2c0e3c05.js",
+    "main.css": "/My-portfolio/static/css/main.d6e7a630.css",
+    "main.js": "/My-portfolio/static/js/main.93df205f.js",
     "static/media/MQTT.jpg": "/My-portfolio/static/media/MQTT.32e1362d12ce0872f7f5.jpg",
     "static/media/Portrait.png": "/My-portfolio/static/media/Portrait.a5178eec98abf69bf2b0.png",
     "static/media/IoTImage.png": "/My-portfolio/static/media/IoTImage.04c12a10420831a825e3.png",
@@ -39,11 +39,11 @@
     "static/media/esp32.png": "/My-portfolio/static/media/esp32.b1c3c304a04adedf9e54.png",
     "static/media/machinel.png": "/My-portfolio/static/media/machinel.a6388650c85f64d8cc5f.png",
     "index.html": "/My-portfolio/index.html",
-    "main.54384be5.css.map": "/My-portfolio/static/css/main.54384be5.css.map",
-    "main.2c0e3c05.js.map": "/My-portfolio/static/js/main.2c0e3c05.js.map"
+    "main.d6e7a630.css.map": "/My-portfolio/static/css/main.d6e7a630.css.map",
+    "main.93df205f.js.map": "/My-portfolio/static/js/main.93df205f.js.map"
   },
   "entrypoints": [
-    "static/css/main.54384be5.css",
-    "static/js/main.2c0e3c05.js"
+    "static/css/main.d6e7a630.css",
+    "static/js/main.93df205f.js"
   ]
 }
