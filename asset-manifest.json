@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/My-portfolio/static/css/main.e1182e45.css",
-    "main.js": "/My-portfolio/static/js/main.07a83ec8.js",
+    "main.css": "/My-portfolio/static/css/main.8c52997e.css",
+    "main.js": "/My-portfolio/static/js/main.091e3396.js",
     "static/media/MQTT.jpg": "/My-portfolio/static/media/MQTT.32e1362d12ce0872f7f5.jpg",
     "static/media/Portrait.png": "/My-portfolio/static/media/Portrait.a5178eec98abf69bf2b0.png",
     "static/media/IoTImage.png": "/My-portfolio/static/media/IoTImage.04c12a10420831a825e3.png",
@@ -21,6 +21,7 @@
     "static/media/C.png": "/My-portfolio/static/media/C.8087af01f28fb2d65eb2.png",
     "static/media/logo-2582748_960_720.png": "/My-portfolio/static/media/logo-2582748_960_720.12fb7c909610c213d9c7.png",
     "static/media/stm32.png": "/My-portfolio/static/media/stm32.83f0907da89b3480496b.png",
+    "static/media/favicon.ico": "/My-portfolio/static/media/favicon.9041d563a1fee41e2820.ico",
     "static/media/vhdl.png": "/My-portfolio/static/media/vhdl.f82a483ce5115757cfec.png",
     "static/media/mqtt.png": "/My-portfolio/static/media/mqtt.87f5d92b231e689379c0.png",
     "static/media/TCPIP.png": "/My-portfolio/static/media/TCPIP.45e9eb739d29e7f1133f.png",
@@ -39,11 +40,11 @@
     "static/media/esp32.png": "/My-portfolio/static/media/esp32.b1c3c304a04adedf9e54.png",
     "static/media/machinel.png": "/My-portfolio/static/media/machinel.a6388650c85f64d8cc5f.png",
     "index.html": "/My-portfolio/index.html",
-    "main.e1182e45.css.map": "/My-portfolio/static/css/main.e1182e45.css.map",
-    "main.07a83ec8.js.map": "/My-portfolio/static/js/main.07a83ec8.js.map"
+    "main.8c52997e.css.map": "/My-portfolio/static/css/main.8c52997e.css.map",
+    "main.091e3396.js.map": "/My-portfolio/static/js/main.091e3396.js.map"
   },
   "entrypoints": [
-    "static/css/main.e1182e45.css",
-    "static/js/main.07a83ec8.js"
+    "static/css/main.8c52997e.css",
+    "static/js/main.091e3396.js"
   ]
 }
