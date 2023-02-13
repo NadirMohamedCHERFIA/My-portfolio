@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/My-portfolio/static/css/main.8a4d55a5.css",
-    "main.js": "/My-portfolio/static/js/main.091e3396.js",
+    "main.css": "/My-portfolio/static/css/main.77c7fd54.css",
+    "main.js": "/My-portfolio/static/js/main.fd57dd9b.js",
     "static/media/MQTT.jpg": "/My-portfolio/static/media/MQTT.32e1362d12ce0872f7f5.jpg",
     "static/media/Portrait.png": "/My-portfolio/static/media/Portrait.a5178eec98abf69bf2b0.png",
     "static/media/IoTImage.png": "/My-portfolio/static/media/IoTImage.04c12a10420831a825e3.png",
@@ -39,12 +39,10 @@
     "static/media/GithubImage.png": "/My-portfolio/static/media/GithubImage.b4b9dc5926f7c26b65aa.png",
     "static/media/esp32.png": "/My-portfolio/static/media/esp32.b1c3c304a04adedf9e54.png",
     "static/media/machinel.png": "/My-portfolio/static/media/machinel.a6388650c85f64d8cc5f.png",
-    "index.html": "/My-portfolio/index.html",
-    "main.8a4d55a5.css.map": "/My-portfolio/static/css/main.8a4d55a5.css.map",
-    "main.091e3396.js.map": "/My-portfolio/static/js/main.091e3396.js.map"
+    "index.html": "/My-portfolio/index.html"
   },
   "entrypoints": [
-    "static/css/main.8a4d55a5.css",
-    "static/js/main.091e3396.js"
+    "static/css/main.77c7fd54.css",
+    "static/js/main.fd57dd9b.js"
   ]
 }
