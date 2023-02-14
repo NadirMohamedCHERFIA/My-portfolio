@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/My-portfolio/static/css/main.cba6f861.css",
+    "main.css": "/My-portfolio/static/css/main.724e4fec.css",
     "main.js": "/My-portfolio/static/js/main.28eb1046.js",
     "static/media/MQTT.jpg": "/My-portfolio/static/media/MQTT.32e1362d12ce0872f7f5.jpg",
     "static/media/Portrait.png": "/My-portfolio/static/media/Portrait.a5178eec98abf69bf2b0.png",
@@ -41,7 +41,7 @@
     "index.html": "/My-portfolio/index.html"
   },
   "entrypoints": [
-    "static/css/main.cba6f861.css",
+    "static/css/main.724e4fec.css",
     "static/js/main.28eb1046.js"
   ]
 }
