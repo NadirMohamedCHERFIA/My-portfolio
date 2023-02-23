@@ -1,7 +1,8 @@
 {
   "files": {
-    "main.css": "/My-portfolio/static/css/main.82eec0f2.css",
-    "main.js": "/My-portfolio/static/js/main.82f479a4.js",
+    "main.css": "/My-portfolio/static/css/main.b9d512a6.css",
+    "main.js": "/My-portfolio/static/js/main.7c9cee1c.js",
+    "static/media/Bluegriot__presentation.png": "/My-portfolio/static/media/Bluegriot__presentation.f6e20539776fc6b5283c.png",
     "static/media/MQTT.jpg": "/My-portfolio/static/media/MQTT.32e1362d12ce0872f7f5.jpg",
     "static/media/Portrait.png": "/My-portfolio/static/media/Portrait.a5178eec98abf69bf2b0.png",
     "static/media/IoTImage.png": "/My-portfolio/static/media/IoTImage.04c12a10420831a825e3.png",
@@ -41,7 +42,7 @@
     "index.html": "/My-portfolio/index.html"
   },
   "entrypoints": [
-    "static/css/main.82eec0f2.css",
-    "static/js/main.82f479a4.js"
+    "static/css/main.b9d512a6.css",
+    "static/js/main.7c9cee1c.js"
   ]
 }
